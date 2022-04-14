@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  argocd:
+  - annotations:
+      artifacthub.io/changes: |
+        - "initial import"
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 4.5.3
+    created: "2022-04-14T14:29:37.70473+08:00"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 4.5.3
+    description: Custom Argo installation with helm-secrets and aws-kms
+    digest: 92cc6ffbbc1107cd5d54de76a84e5deeb05e9c25090c73dd87b4d4361f56a438
+    maintainers:
+    - email: comingiscoming@yahoo.com.hk
+      name: comingiscoming
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/hkicl-ming/cdi-helm-charts/releases/download/argocd-0.1.0/argocd-0.1.0.tgz
+    version: 0.1.0
+  argowf:
+  - annotations:
+      artifacthub.io/changes: |
+        - "initial import"
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 0.13.1
+    created: "2022-04-14T14:29:38.106974+08:00"
+    dependencies:
+    - name: argo-workflows
+      repository: https://argoproj.github.io/argo-helm
+      version: 0.13.1
+    description: Custom Argo Workflow installation
+    digest: 0be8c104a1d7475c1c5255270fd7ff4fd1cdb515401aa6edbb39678f94ac8b5f
+    maintainers:
+    - email: comingiscoming@yahoo.com.hk
+      name: comingiscoming
+    name: argowf
+    type: application
+    urls:
+    - https://github.com/hkicl-ming/cdi-helm-charts/releases/download/argowf-0.1.0/argowf-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-04-14T14:29:38.106981+08:00"
