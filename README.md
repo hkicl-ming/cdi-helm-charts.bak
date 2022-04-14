@@ -1,3 +1,29 @@
+# CDI [Helm](https://helm.sh) Charts
+
+This repository contains [Helm](https://helm.sh) charts for various projects
+
+* [Argo CD](charts/argocd/)
+* [Argo Workflows](charts/argowf/)
+
+## Installing Charts from this Repository
+
+Add the Repository to Helm:
+```
+helm repo add my-helm-charts https://hkicl-ming.github.io/cdi-helm-charts
+```
+
+Install ArgoCD:
+```
+helm install cdi-helm-charts/argocd
+```
+
+Install ArgoWF:
+```
+helm install cdi-helm-charts/argowf
+```
+
+--------------------------------
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/hkicl-ming/cdi-helm-charts/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
