@@ -1,0 +1,17 @@
+name: argowf
+apiVersion: v2
+version: 0.1.0
+appVersion: 0.13.1
+description: Custom Argo Workflow installation
+type: application
+dependencies:
+  - name: argo-workflows
+    version: 0.13.1
+    repository: "https://argoproj.github.io/argo-helm"
+maintainers:
+  - name: "comingiscoming"
+    email: "comingiscoming@yahoo.com.hk"
+annotations:
+  artifacthub.io/changes: |
+    - "initial import"
+  artifacthub.io/prerelease: "true"

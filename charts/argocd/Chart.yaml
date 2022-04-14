@@ -1,0 +1,17 @@
+name: argocd
+apiVersion: v2
+version: 0.1.0
+appVersion: 4.5.3
+description: Custom Argo installation with helm-secrets and aws-kms
+type: application
+dependencies:
+  - name: argo-cd
+    version: 4.5.3
+    repository: "https://argoproj.github.io/argo-helm"
+maintainers:
+  - name: "comingiscoming"
+    email: "comingiscoming@yahoo.com.hk"
+annotations:
+  artifacthub.io/changes: |
+    - "initial import"
+  artifacthub.io/prerelease: "true"
