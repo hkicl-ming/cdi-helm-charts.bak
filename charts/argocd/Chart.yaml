@@ -13,5 +13,5 @@ maintainers:
     email: "ming.reinfo@gmail.com"
 annotations:
   artifacthub.io/changes: |
-    - "test github action on release"
+    - "test github action on release 2"
   artifacthub.io/prerelease: "true"
