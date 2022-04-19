@@ -12,8 +12,8 @@ argo-cd:
   global:
     image:
       # -- custom image with helm-secret
-      repository: "ghcr.io/rtang03/argocd-helm-secret"
-      tag: "2.1.7-rev4"
+      repository: "ghcr.io/hkicl-ming/argocd-custom"
+      tag: "2.1.7"
       # -- imagePullPolicy
       # @default -- internal value
       imagePullPolicy: IfNotPresent
@@ -47,7 +47,7 @@ argo-cd:
     # @default -- internal value
     config:
       accounts.cli: apiKey, login
-      statusbadge.enabled: 'false'
+      statusbadge.enabled: "false"
       # https://argoproj.github.io/argo-cd/operator-manual/declarative-setup/#helm-chart-repositories
       # need to add non standard helm chart for istio, in order for argocd to work
       helm.repositories: |
