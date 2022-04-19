@@ -3,6 +3,27 @@ entries:
   argocd:
   - annotations:
       artifacthub.io/changes: |
+        - "test github action on release 2"
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 3.28.1
+    created: "2022-04-19T10:35:58.468170838Z"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 3.28.1
+    description: Custom Argo installation with helm-secrets and aws-kms
+    digest: ad7ebcec1095f35273ea656de64cc905cae4bb147c5ae65b98bfad1620d67436
+    maintainers:
+    - email: ming.reinfo@gmail.com
+      name: ming.reinfo
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/hkicl-ming/cdi-helm-charts/releases/download/argocd-0.1.1/argocd-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/changes: |
         - "initial import"
       artifacthub.io/prerelease: "true"
     apiVersion: v2
@@ -44,4 +65,4 @@ entries:
     urls:
     - https://github.com/hkicl-ming/cdi-helm-charts/releases/download/argowf-0.1.0/argowf-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-14T14:29:38.106981+08:00"
+generated: "2022-04-19T10:35:58.468185938Z"
