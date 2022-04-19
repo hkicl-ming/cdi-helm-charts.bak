@@ -1,6 +1,6 @@
 name: argocd
 apiVersion: v2
-version: 0.1.0
+version: 0.1.1
 appVersion: 3.28.1
 description: Custom Argo installation with helm-secrets and aws-kms
 type: application
@@ -13,5 +13,5 @@ maintainers:
     email: "ming.reinfo@gmail.com"
 annotations:
   artifacthub.io/changes: |
-    - "initial import"
+    - "test github action on release"
   artifacthub.io/prerelease: "true"
